@@ -1,0 +1,15 @@
+function login() {
+	var person = prompt("Username:");
+	var password = prompt("Password:");
+		if (person === "Ryan"){
+			if (password === "12345"){
+				/* If anybody else's name is Ryan they won't know the password*/	
+				confirm("WELCOME");
+			}else{
+				alert("Your username or password is incorrect");
+				/* If their password isn't 12345 they can't login as me*/			
+		}}else{
+			alert("Your username or password is incorrect");
+			/* This just declines anybody without the name Ryan*/
+		}
+}
