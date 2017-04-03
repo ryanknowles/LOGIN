@@ -1,105 +1,90 @@
 <html>
-<head>
-</head>
+	<head>
+			<title> R8 Cars  </title>
+			
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="java.js"></script>
 
-<style>
-form {
-    border: 3px solid #f1f1f1;
-}
-
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-button:hover {
-    opacity: 0.8;
-}
-
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
-}
-
-.container {
-    padding: 16px;
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
-}
-</style>
-
+	</head>
 <body>
+<p class="green">
+	<h2 style="background-color:Yellow">
+		R8 Cars
+	</h2>
+	<!--Table of cars with links-->
+	
+	<!--
+	<ul>
+	 <li> <a href="finalweb.html">Home</a></li>
+	 <li> <a href="#comments">Comments</a></li>
+	</ul>
+	-->
+<button onclick="login()">Login</button>
 
-<h2>Login to Website</h2>
+	
+<table>
+  		<tr>
+			<td>Alfa Romeo<br><img src="http://thenewswheel.com/wp-content/uploads/2015/06/1024px-Alfa_Romeo.svg_-630x630.png" alt="alfa romeo" class="logo"></td>
+			<td><a href="astonmartin.html">Aston Martin</a><br><img src="http://holidaysimages.org/wp-content/uploads/2016/01/Aston-Martin-640x286.png" alt="aston martin" class="logo"></td>
+			<td><a href="audi.html">Audi</a><br><img src="http://www.userlogos.org/files/logos/qoool/audi.png" alt="audi" class="logo"></td>
+			<td><a href="bmw.html">BMW</a><br><img src="http://prideautomotive.ca/wp-content/uploads/2015/02/BMW-LOGO-150x150.png" alt="bmw" class="logo"></td>
+			<td><a href="bugatti.html">Bugatti</a><br><img src="http://www.car-logos.org/wp-content/uploads/2011/09/bugatti.png" alt="bugatti" class="logo"></td>
+			<td><a href="cadillac.html">Cadillac</a><br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/04/Cadillac-logo-American-car-brands-250x234.png" alt="cadillac" class="logo"></td>
+		</tr>
+		<tr>
+			<td><a href="chevrolet.html">Chevrolet</a><br><img src="http://brooklyncarcash.com/wp-content/uploads/Chevy-300x225.png" alt="chevrolet" class="logo"></td>
+			<td><a href="citroen.html">Citroen</a><br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/10/Citroen-Logo.png" alt="citroen" class="logo"></td>
+			<td><a href="dodge.html">Dodge</a><br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/09/Dodge-logo.png" alt="dodge" class="logo"></td>
+			<td><a href="ferrari.html">Ferrari</a><br><img src="http://i.imgur.com/vRou5XZ.png" alt="ferrari" class="logo"></td>
+			<td><a href="ford.html">Ford</a><br><img src="http://freepngimages.com/wp-content/uploads/2014/05/ford_2.png" alt="ford" class="logo"></td>
+			<td><a href="gumpert.html">Gumpert</a><br><img src="http://www.carlogos.org/logo/Gumpert-logo-1920x1080.png" alt="gumpert" class="logo"></td>
+		</tr>	
+		<tr>
+			<td><a href="honda.html">Honda</a><br><img src="http://starmoz.com/images/honda-logo-13.jpg" alt="honda" class="logo"></td>
+			<td><a href="jaguar.html">Jaguar</a><br><img src="http://pngimg.com/upload/car_logo_PNG1647.png" alt="jaguar" class="logo"></td>
+			<td><a href="koenigsegg.html">Koenigsegg</a><br><img src="http://vignette1.wikia.nocookie.net/sportwagen/images/d/db/140px-Koenigsegg_(Fahrzeughersteller)_logo.svg.png/revision/latest?cb=20130328073413&path-prefix=de" alt="koenigsegg" class="logo"></td>
+			<td><a href="lamborghini.html">Lamborghini</a><br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/03/Lamborghini-Logo.png" alt="lamborghini" class="logo"></td>
+			<td><a href="lexus.html">Lexus</a><br><img src="http://www.car-logos.org/wp-content/uploads/2011/09/lexus.png" alt="lexus" class="logo"></td>
+			<td><a href="maserati.html">Maserati</a><br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/05/Maserati-logo.png" alt="maserati" class="logo"></td>
+		</tr>
+		<tr>
+			<td><a href="mclaren.html">McLaren</a><br><img src="http://www.logoeps.com/wp-content/uploads/2012/12/mclaren-logo-vector.png" alt="mclaren" class="logo"></td>
+			<td>Mercedes-Benz<br><img src="http://www.bmpjapan.com//assets/uploads/files/90796-mercedez.png" alt="mercedes" class="logo"></td>
+			<td>Mitsubishi<br><img src="http://www.car-brand-names.com/wp-content/uploads/2016/03/Mitsubishi-symbol-4.png" alt="mitsubishi" class="logo"></td>
+			<td><a href="pagani.html">Pagani</a><br><img src="http://2.bp.blogspot.com/-R6sI1u8c66Y/UR4wu_gtRTI/AAAAAAAABoA/oPbUzoymRuY/s1600/Pagani_logo.png" alt="pagani" class="logo"></td>
+			<td>Peugeot<br><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Peugeot_logo.svg/386px-Peugeot_logo.svg.png" alt="peugeot" class="logo"></td>
+			<td>Porsche<br><img src="http://logok.org/wp-content/uploads/2014/07/porsche-logo-and-wordmark-1024x768.png" alt="porsche" class="logo"></td>
+		</tr>
+		<tr>
+			<td>Nissan<br><img src="http://freepngimages.com/wp-content/uploads/2014/05/Nissan_Logo_2.png" alt="nissan" class="logo"></td>
+			<td>Subaru<br><img src="http://www.car-logos.org/wp-content/uploads/2011/09/subaru.png" alt="subaru" class="logo"></td>
+			<td>Tesla<br><img src="http://www.car-brand-names.com/wp-content/uploads/2015/05/Tesla-Motors-symbol.png" alt="tesla" class="logo"></td>
+		</tr>
+	</table>
+<br>
+<br>
 
 
-  </div>
+<!--All manufactuers in alphabetical order-->
 
-  <div class="container">
-    <label>Your Username</label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+<h1 style="background-color:Red">Mercedes-Benz</h1>
 
-    <label>Your Password</label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <button type="submit">Login</button>
-</form>
 
-<script>
-	var login = function{
-		var username = prompt("username");
-		var password = prompt("password");
-			if(username = Ryan){
-			if(password = "123")
-		/* This sets the username and password*/
-				<a href="finalwebsite.html">
-			} else if {
-				(username != Ryan)
-				confirm("Username or password is incorrect")
-		/* This allerts the person that they got the username wrong*/
-			}
+<h1 style="background-color:Red">Mitsubishi</h1>
 
-			} else if {
-				(username != "123")
-		/* This allertts the person that they got the password wrong*/
-				confirm("Username or password is incorrect")	
-}
+	<h2>Lancer Evolution X</h2>
 
-</script
+
+
+<h1 style="background-color:Red">Peugeot</h1>
+
+
+<h1 style="background-color:Red">Porsche</h1>
+
+
+<h1 style="background-color:Red">Nissan</h1>
+
+
+<h1 style="background-color:Red">Subaru</h1>
 </body>
 </html>
